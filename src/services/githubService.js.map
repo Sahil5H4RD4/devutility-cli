@@ -1,0 +1,1 @@
+{"version":3,"file":"githubService.js","sourceRoot":"","sources":["githubService.ts"],"names":[],"mappings":";;;;;;AAAA,kDAA0B;AAE1B,MAAa,aAAa;IACxB,KAAK,CAAC,OAAO,CAAC,QAAgB;QAC5B,MAAM,QAAQ,GAAG,MAAM,eAAK,CAAC,GAAG,CAC9B,gCAAgC,QAAQ,EAAE,CAC3C,CAAC;QACF,OAAO,QAAQ,CAAC,IAAI,CAAC;IACvB,CAAC;CACF;AAPD,sCAOC"}

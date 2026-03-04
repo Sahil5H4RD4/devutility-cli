@@ -18,9 +18,7 @@ export class Logger {
   }
 
   header(message: string): void {
-    console.log(chalk.bold.cyan('
-=== ' + message + ' ===
-'));
+    console.log(chalk.bold.cyan('\n=== ' + message + ' ===\n'));
   }
 
   raw(message: string): void {

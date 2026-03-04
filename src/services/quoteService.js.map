@@ -1,0 +1,1 @@
+{"version":3,"file":"quoteService.js","sourceRoot":"","sources":["quoteService.ts"],"names":[],"mappings":";;;;;;AAAA,kDAA0B;AAE1B,MAAa,YAAY;IACvB,KAAK,CAAC,cAAc;QAClB,MAAM,QAAQ,GAAG,MAAM,eAAK,CAAC,GAAG,CAAC,gCAAgC,CAAC,CAAC;QACnE,OAAO,QAAQ,CAAC,IAAI,CAAC;IACvB,CAAC;CACF;AALD,oCAKC"}
