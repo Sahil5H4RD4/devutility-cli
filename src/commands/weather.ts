@@ -14,7 +14,11 @@ export function registerWeatherCommand(program: Command) {
         logger.info(`Temperature: ${data.main.temp}°C`);
         logger.info(`Condition: ${data.weather[0].main}`);
       } catch (error: any) {
-        logger.error('Failed to fetch weather: ' + error.message);
+        if (error.response?.status === 401) {
+          logger.error('Failed to fetch weather: Unauthorized. Please set a valid WEATHER_API_KEY environment variable.');
+        } else {
+          logger.error('Failed to fetch weather: ' + (error.response?.data?.message || error.message));
+        }
       }
     });
 }

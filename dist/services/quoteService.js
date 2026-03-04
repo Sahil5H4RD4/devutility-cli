@@ -7,8 +7,11 @@ exports.QuoteService = void 0;
 const axios_1 = __importDefault(require("axios"));
 class QuoteService {
     async getRandomQuote() {
-        const response = await axios_1.default.get('https://api.quotable.io/random');
-        return response.data;
+        const response = await axios_1.default.get('https://dummyjson.com/quotes/random');
+        return {
+            content: response.data.quote,
+            author: response.data.author
+        };
     }
 }
 exports.QuoteService = QuoteService;

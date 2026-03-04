@@ -16,7 +16,12 @@ function registerWeatherCommand(program) {
             logger_1.logger.info(`Condition: ${data.weather[0].main}`);
         }
         catch (error) {
-            logger_1.logger.error('Failed to fetch weather: ' + error.message);
+            if (error.response?.status === 401) {
+                logger_1.logger.error('Failed to fetch weather: Unauthorized. Please set a valid WEATHER_API_KEY environment variable.');
+            }
+            else {
+                logger_1.logger.error('Failed to fetch weather: ' + (error.response?.data?.message || error.message));
+            }
         }
     });
 }
