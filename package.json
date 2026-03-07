@@ -7,10 +7,14 @@
     "start": "ts-node src/index.ts",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "cli",
+    "utilities",
+    "developer"
+  ],
+  "author": "Sahil",
+  "license": "MIT",
+  "description": "A developer helper CLI tool that provides useful information from APIs",
   "dependencies": {
     "axios": "^1.13.6",
     "chalk": "^4.1.2",
