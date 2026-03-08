@@ -9,7 +9,7 @@ A developer helper CLI tool that provides useful information from APIs. Built wi
 - **github**: Fetch GitHub user profile statistics (Powered by GitHub API).
 - **quote**: Get a random programming or motivational quote (Powered by Quotable API).
 - **joke**: Get a random programming joke (Powered by Official Joke API).
-- **fileinfo**: Display file size and creation date.
+- **fileinfo**: Display detailed file size and creation date.
 - **uuid**: Generate a random UUID.
 - **time**: Display the current time.
 - **random**: Generate a random number.
