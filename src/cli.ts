@@ -14,7 +14,7 @@ export const program = new Command();
 
 program
   .name('devutil')
-  .description('DevUtility CLI - A developer helper tool')
+  .description('DevUtility CLI - A developer helper tool for API interactions')
   .version('1.0.0');
 
 export function setupCommands() {
